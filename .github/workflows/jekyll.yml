@@ -1,0 +1,1 @@
+job: build: runs-on: ubuntu-最新步骤:- uses: actions/checkout@v2 - name: build the site in the Jekyll /builder container run: docker run -v ${{github。工作空间}}:/srv/jekyll -v ${{github。工作空间}}/_site:/srv/jekyll/_site \ jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build—future"
