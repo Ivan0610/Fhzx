@@ -7,7 +7,6 @@
 </head>
 <body>
 	
-	<button id="toggle" onclick="">按钮</button> <br />
-	<input id="" type="button" value="按钮" onclick="" />
+	<button id="toggle">按钮</button> <br />
 </body>
 </html>
